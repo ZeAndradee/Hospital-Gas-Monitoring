@@ -1,0 +1,16 @@
+{
+  "name": "hospitalgasmonitoring",
+  "version": "1.0.0",
+  "description": "To have control over the sizing of Centralized Oxygen Gas",
+  "main": "sever.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
