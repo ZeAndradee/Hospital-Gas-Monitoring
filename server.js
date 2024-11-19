@@ -1,9 +1,13 @@
 import express from "express";
+import valorGas from "./routes/valorgas.js";
 
 const app = express();
 
-const PORT = 3000;
+app.use(express.json());
 
+app.use("/", valorGas);
+
+const PORT = 3000;
 app.listen(PORT, (err) => {
   if (err) {
     console.error("Failed to start server:", err);
